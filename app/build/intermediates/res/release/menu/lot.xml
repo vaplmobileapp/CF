@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+  <item android:id="@+id/Menu"
+          android:title="@string/menu" android:showAsAction="always">
+        <!-- "file" submenu -->
+        <menu>           
+            <item android:id="@+id/lot"
+                  android:title="@string/lot" />
+         
+          
+        </menu>
+    </item>
+</menu>
+<!-- From: file:/C:/Users/San/StudioProjects/CFS/app/src/main/res/menu/lot.xml -->

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vaighaiprotein"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="DisplayActivity">
+            
+        </activity>
+        
+       
+        <activity
+            android:name="com.vaighaiprotein.MainActivity"
+            android:label="@string/app_name" 
+            android:noHistory="true">
+            
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>            
+           
+        </activity>
+        
+        <activity android:name="AddActivity"></activity>
+        <activity android:name="Lot"></activity>
+        <activity android:name="Lotnew"></activity>
+        <activity android:name="visit"></activity>
+        <activity android:name="Visitnew"></activity>
+        <activity android:name="Cfsmain"></activity>
+        <activity android:name="Main">
+                          
+            
+        </activity>
+        <activity android:name="Receiptdisp"></activity>
+        <activity android:name="Pendpallet"></activity>
+        <activity android:name="Pallet"></activity>
+        <activity android:name="Pallatization"></activity>
+        <activity android:name="Containerdisp"></activity>
+        <activity android:name="Containerinw"></activity>
+        <activity android:name="Conproduct"></activity>
+        <activity android:name="Undispcont"></activity>
+        <activity android:name="Disppallet"></activity>
+        <activity android:name="Condispatch"></activity>
+        <activity android:name="Condispatchfinish"></activity>
+        <activity android:name="Login"  android:noHistory="true" ></activity>
+        <activity android:name="Newuser"></activity>
+    </application>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+ <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.GET_ACCOUNTS"></uses-permission>
+
+   
+</manifest>

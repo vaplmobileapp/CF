@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vaighaiprotein"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.vaighaiprotein.DisplayActivity" >
+        </activity>
+        <activity
+            android:name="com.vaighaiprotein.MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.vaighaiprotein.AddActivity" />
+        <activity android:name="com.vaighaiprotein.Lot" />
+        <activity android:name="com.vaighaiprotein.Lotnew" />
+        <activity android:name="com.vaighaiprotein.visit" />
+        <activity android:name="com.vaighaiprotein.Visitnew" />
+        <activity android:name="com.vaighaiprotein.Cfsmain" />
+        <activity android:name="com.vaighaiprotein.Main" >
+        </activity>
+        <activity android:name="com.vaighaiprotein.Receiptdisp" />
+        <activity android:name="com.vaighaiprotein.Pendpallet" />
+        <activity android:name="com.vaighaiprotein.Pallet" />
+        <activity android:name="com.vaighaiprotein.Pallatization" />
+        <activity android:name="com.vaighaiprotein.Containerdisp" />
+        <activity android:name="com.vaighaiprotein.Containerinw" />
+        <activity android:name="com.vaighaiprotein.Conproduct" />
+        <activity android:name="com.vaighaiprotein.Undispcont" />
+        <activity android:name="com.vaighaiprotein.Disppallet" />
+        <activity android:name="com.vaighaiprotein.Condispatch" />
+        <activity android:name="com.vaighaiprotein.Condispatchfinish" />
+        <activity
+            android:name="com.vaighaiprotein.Login"
+            android:noHistory="true" />
+        <activity android:name="com.vaighaiprotein.Newuser" />
+    </application>
+
+</manifest>

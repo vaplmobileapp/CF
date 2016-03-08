@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:background="#33CCCCCC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/docdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Docdate"
+            android:inputType="date" >
+
+            </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/contno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contract No"
+            android:ems="10" >
+
+
+        </EditText>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/consignee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Consignee"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/Product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ptype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Packing Type"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/containerno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Container No"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/contytpe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/conttype" />
+
+    <EditText
+        android:id="@+id/tarewt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Opening Wt. in KGS"
+        android:inputType="numberDecimal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/custom_btn_acapulco"
+            android:text="Save"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/San/StudioProjects/CFS/app/src/main/res/layout/containerinw.xml -->
